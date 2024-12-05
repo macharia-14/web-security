@@ -1,0 +1,164 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: rgb(252, 250, 247);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+header {
+    background-color: #0f0d08;
+	color: rgb(31, 67, 138);
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header h1 {
+	margin: 0;
+	font-size: 36px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav ul li {
+	margin: 0 10px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	text-decoration: underline
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+	float: left;
+	width: 33.33%;
+	padding: 5px;
+	flex: 33.33%;
+}
+  
+  /* Clear floats after image containers */
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+	display: flex;
+}
+.fa {
+	padding: 20px;
+	font-size:30px;
+	width:50px;
+	text-align:center;
+	margin:5px 2px;
+}
+.fa :hover {
+	opacity :0.9;
+}
+.fa-facebook {
+	background:#3B5998;
+	color:white;
+}
+.fa-twitter {
+	background:#55ACEE;
+	color:white;
+}
+.fa-instagram {
+	background:#125688;
+	color:white;
+}
+.fa-skype {
+	background:#00aff0;
+	color:white;
+}
+footer{
+	background-color :#0d09d8;
+	margin :0;
+	padding: 5px;
+	position: bottom;
+	text-shadow: 0cqh;
+	bottom: 0%;
+	text-align: center;
+}
+textarea{
+	height: 70px;
+	width: 200px;
+
+}
+.container{
+	display: block;
+	border: 50px;
+	border-radius: 50%;
+	font: 900;
+}
+  .signup-container{
+	display:block ;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+/* login from style */
+.login-form {
+  
+	max-width: 400px;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #fff;
+} 
+  
+  /* signup form style*/
+  .signup-form{
+	max-width: 400px;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #fff;
+  }
+  .form h2 {
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 20px;
+  }
+  .form-group {
+	margin-bottom: 20px;
+  }
+  label {
+	display: block;
+	font-size: 16px;
+	margin-bottom: 5px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+	box-sizing: border-box;
+  }
+  button[type="submit"] {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: #007bff;
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+  }
+  /* end of signup form style */
