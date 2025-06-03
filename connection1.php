@@ -2,9 +2,7 @@
 
 //making a database connection
 $serverName = getenv('DB_SERVER') ?: "127.0.0.1";
-$userName = getenv('DB_USER') ?: "root";
-$password = getenv('DB_PASS') ?: "#Tottenham1";
-$dbName = getenv('DB_NAME') ?: "arthive";
+
 
 //connection object 
 $conn = new mysqli($serverName, $userName, $password, $dbName);
